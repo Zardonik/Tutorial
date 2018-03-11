@@ -1,0 +1,114 @@
+body{
+	margin:0px auto;
+}
+.contentBox{
+	 
+}
+.head{
+font-family: monospace;
+font-size: 25px;
+display: flex;
+flex-direction: column;
+text-align: center;
+color:white;
+}
+.leftSideBar{
+	width:250px;
+	background:linear-gradient(to left,black,grey);
+	border:1px solid;
+	position:fixed;
+	height: 100vh;
+	box-shadow:8px 0px 10px 5px #7a7a7a;
+}
+.leftSideBar h1{
+	margin-bottom:0px;
+}
+.leftSideBar p{
+	margin-top:0px;
+	font-size: 12px;
+}
+.menu ul{
+	  margin: 0;
+    padding: 0px;
+    text-align: right;
+    list-style: none;
+    background:linear-gradient(to left,black,white);
+}
+.menu li{
+	font-family:monospace;
+	font-size:20px;
+	padding: 10px;
+	border-top: 0.5px solid white;
+	width: 229px;
+	float: right;
+}
+.menu li:hover{
+	background-color:grey;
+}
+.menu a li{
+	align-items:center;
+	color: white;
+	text-decoration:none;
+	float:right;
+}
+.bord{
+	border-bottom:1px solid white;
+}
+.filterBox{
+}
+.filterBox p{
+	text-align:right;
+}
+.filterBox p a:hover{
+    color: gray;
+}
+.filterBox p a{
+	text-decoration:none;
+	color: white;
+	padding-right:12px;
+	font-family:monospace;
+	font-size: 17px;
+}
+hr{
+	background-color:white;
+	height:1px;
+	border:none;
+	width:100%;
+}
+.iconsNetWorks{
+	display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.icons{
+	padding:5px;
+}
+.theEnd span{
+	font-style:italic;
+	color:white;
+	font-size: 12px;
+	float:right;
+	padding:7px;
+}
+.amount{
+	padding-left:280px;
+	padding-right:100px;
+	border:1px solid black;
+	background:black;
+}
+content h1{
+	display:flex;
+	color:white;
+	justify-content:center;
+	font-family:monospace;
+	font-size:50px;
+}
+content p{
+	color:white;
+	display:flex;
+	text-align:center;
+}
+.picture{
+	display:flex;
+	justify-content:center;
+}
